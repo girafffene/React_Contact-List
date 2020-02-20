@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+.singleHeader {
+  background-color: rgb(168, 208, 124);
+  display: flex;
+  align-content: center;
+  height: 200px;
+}
+
+.singleHeader img {
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 750px;
+  border-radius: 100%;
+}
+
+.listHeader {
+  background-color: rgb(131, 188, 70);
+  border-bottom: 2px solid rgb(107, 159, 50);
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 30px;
+}
+
+/* unvisited link */
+.arrow:link {
+  color: black;
+}
+
+/* visited link */
+.arrow:visited {
+  color: black;
+}
+
+/* mouse over link */
+.arrow:hover {
+  color: black;
+}
+
+/* selected link */
+.arrow:active {
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.listSingle {
+  text-transform: capitalize;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.person {
+  text-transform: capitalize;
+}
+
+li > img {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+li > p {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.person img {
+  border-radius: 100%;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+li {
+  border-bottom: 1px solid grey;
+}
